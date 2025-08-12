@@ -37,7 +37,7 @@ export default function App() {
                 <Row>
                     <Col md={4}>
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="./imgs/card1.jpg" className="object-fit-cover" style={{ height: "200px" }} />
+                            <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/imgs/card1.jpg`} className="object-fit-cover" style={{ height: "200px" }} />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
                                 <Card.Text>
@@ -50,7 +50,7 @@ export default function App() {
                     </Col>
                     <Col md={4}>
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="./imgs/card2.jpg" className="object-fit-cover" style={{ height: "200px" }} />
+                            <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/imgs/card2.jpg`}  className="object-fit-cover" style={{ height: "200px" }} />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
                                 <Card.Text>
@@ -63,7 +63,7 @@ export default function App() {
                     </Col>
                     <Col md={4}>
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="./imgs/card3.jpg" className="object-fit-cover" style={{ height: "200px" }} />
+                            <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/imgs/card3.jpg`} className="object-fit-cover" style={{ height: "200px" }} />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
                                 <Card.Text>
